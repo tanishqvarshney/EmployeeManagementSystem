@@ -21,7 +21,7 @@ public class Employee {
 	@Column(name = "lastname")
 	private String lastName;
 	
-	@Column(name = "email")
+	@Column(name = "mail")
 	private String email;
 	public long getId() {
 		return id;
